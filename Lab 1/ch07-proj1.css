@@ -58,39 +58,30 @@ button {
 
 /* add your styles here */
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
 .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.card {
-    width: 24%;
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Align items vertically centered */
+    justify-content: center; /* Center items horizontally */
 }
 .cards {
-    display: flex;
-    justify-content: space-between;
+    display: flex; /* Use flexbox layout */
+    justify-content: space-between; /* Distribute space between cards */
 }
 img {
-    max-width: 100%;
+    max-width: 100%; /* Set the maximum width of images to 100% of their container */
 }
 .card img:hover {
-    filter: saturate(150%);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    filter: saturate(150%); /* Increase color saturation */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
 .card:hover{
 }
 .card button {
-    opacity: 0;
-    transition: 1s opacity ease-in-out;
+    opacity: 0; /* Make buttons invisible */
+    transition: 1s opacity ease-in-out; /* Smooth transition for opacity change */
 }
 .card:hover button {
-    opacity: 1;
+    opacity: 1; /* Make buttons visible */
 }
 
 
@@ -99,13 +90,13 @@ img {
 @media only screen and (max-width:480px)
 {
 :root {
-    --card-font-size: 100%;
-    --header-font-size: 24px;
-    --header-height: 4em;
+    --card-font-size: 100%; /* Set card font size variable */
+    --header-font-size: 24px; /* Set header font size variable */
+    --header-height: 4em; /* Set header height variable */
 }
 .card {
-    width: 100%;
-    font-size: 100%;
+    width: 100%; /* Set card width to 100% of its container */
+    font-size: 100%; /* Set font size to 100% */
 }
 }
 
@@ -115,11 +106,11 @@ img {
 and (max-width: 768px)
 {
 :root {
-    --card-font-size: 100%;
-    --header-height: 5em;
+    --card-font-size: 100%; /* Set card font size variable */
+    --header-height: 5em; /* Set header height variable */
 }
 .card {
-    width: 45%;
-    font-size: 100%;
+    width: 45%; /* Set card width to 45% of its container */
+    font-size: 100%; /* Set font size to 100% */
 }
 }
