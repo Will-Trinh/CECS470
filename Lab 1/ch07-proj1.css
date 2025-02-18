@@ -75,6 +75,7 @@ img {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
 .card:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
 }
 .card button {
     opacity: 0; /* Make buttons invisible */
