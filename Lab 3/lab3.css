@@ -1,0 +1,102 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar .brand {
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: auto;
+  }
+  
+  main {
+    padding: 30px 60px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .form-inline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    padding: 6px 8px;
+    font-size: 14px;
+    width: 150px;
+  }
+  
+  button {
+    padding: 6px 12px;
+    font-size: 14px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #d5d5d5;
+  }
+  
+  hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  /* Table Styling */
+  #results-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #results-table thead {
+    background-color: #f2f2f2;
+  }
+  
+  #results-table th,
+  #results-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  #results-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  #results-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Footer Styling */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+  }
+  

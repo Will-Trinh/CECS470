@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Meta tags for character encoding and responsive design -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Public Holidays Finder</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="lab3.css">
+</head>
+<body>
+  <!-- Header section containing navigation -->
+  <header>
+    <nav class="navbar">
+      <!-- Site branding and navigation links -->
+      <span class="brand">HolidaysViewers</span>
+      <a href="#">Home</a>
+      <a href="#">Privacy</a>
+    </nav>
+  </header>
+
+  <!-- Main content section -->
+  <main>
+    <h1>Public Holidays Finder</h1>
+
+    <!-- Form for user input with submit event handler -->
+    <form class="form-inline" onsubmit="event.preventDefault(); fetchHolidays();">
+      <!-- Input for country code -->
+      <label for="countryCode">Country Code:</label>
+      <input type="text" id="countryCode" name="countryCode" required>
+      <!-- Input for year -->
+      <label for="year">Year:</label>
+      <input type="number" id="year" name="year" required>
+      <!-- Submit button to trigger API call -->
+      <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+
+    <!-- Results section containing the table -->
+    <section id="results-section">
+      <table id="results-table">
+        <!-- Table header row -->
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Name</th>
+            <th>Local Name</th>
+            <th>Country Code</th>
+            <th>Global</th>
+          </tr>
+        </thead>
+        <!-- Table body where results will be added dynamically -->
+        <tbody id="results">
+          <!-- Results will be inserted here by JavaScript -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Footer section with copyright information -->
+  <footer>
+    <p>&copy; 2025 - HolidaysViewers - <a href="#">Privacy</a></p>
+  </footer>
+
+  <!-- Link to external JavaScript file -->
+  <script src="lab3.js"></script>
+</body>
+</html>
