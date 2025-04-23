@@ -1,0 +1,2 @@
+# Ignore the node_modules directory, which contains dependencies installed via npm
+node_modules/
